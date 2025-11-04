@@ -1,0 +1,59 @@
+{
+  "product": [
+    {
+      "id": 1,
+      "codeProduct": "PROD–1234",
+      "nameProduct": "Thuốc cảm cúm",
+      "price": 4,
+      "quantity": 1,
+      "importDate": "2025-11-03",
+      "description": "Mô tả",
+      "categoryId": 1
+    },
+    {
+      "id": 2,
+      "codeProduct": "PROD–1235",
+      "nameProduct": "a",
+      "quantity": 12,
+      "importDate": "2025-11-04",
+      "categoryId": "2",
+      "price": 11111,
+      "description": "aaaaaaa"
+    },
+    {
+      "id": 3,
+      "codeProduct": "PROD-1231",
+      "nameProduct": "b",
+      "quantity": 2,
+      "importDate": "2025-11-04",
+      "categoryId": "3",
+      "price": 11222,
+      "description": "aaaaaaa"
+    },
+    {
+      "codeProduct": "PROD-1111",
+      "nameProduct": "c",
+      "quantity": 1111,
+      "importDate": "2025-11-04",
+      "categoryId": "3",
+      "price": 1111111,
+      "description": "aaaaaaa",
+      "id": 4
+    }
+  ],
+  "category": [
+    {
+      "id": 1,
+      "nameCategory": "Thuốc cảm",
+      "description": ""
+    },
+    {
+      "id": 2,
+      "nameCategory": "Thuốc sổ mũi"
+    },
+    {
+      "id": 3,
+      "nameCategory": "Thuốc sốt"
+    }
+  ]
+}
