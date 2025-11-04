@@ -13,7 +13,6 @@ export default function SearchBar({
       className="p-3 bg-white rounded-3 shadow-sm d-flex align-items-center gap-3 flex-wrap"
       style={{ flex: 1 }}
     >
-      {/* Ô nhập tên sản phẩm */}
       <div className="flex-grow-1" style={{ minWidth: "220px" }}>
         <input
           type="text"
@@ -24,7 +23,6 @@ export default function SearchBar({
         />
       </div>
 
-      {/* Dropdown thể loại */}
       <div style={{ minWidth: "200px" }}>
         <select
           className="form-select"
@@ -40,7 +38,6 @@ export default function SearchBar({
         </select>
       </div>
 
-      {/* Nút tìm kiếm */}
       <button className="btn btn-primary px-4 fw-semibold" onClick={onSearch}>
         Tìm kiếm
       </button>

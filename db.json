@@ -49,11 +49,13 @@
     },
     {
       "id": 2,
-      "nameCategory": "Thuốc sổ mũi"
+      "nameCategory": "Thuốc sổ mũi",
+      "description": ""
     },
     {
       "id": 3,
-      "nameCategory": "Thuốc sốt"
+      "nameCategory": "Thuốc sốt",
+      "description": ""
     }
   ]
 }

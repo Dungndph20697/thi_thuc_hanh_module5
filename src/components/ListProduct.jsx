@@ -33,7 +33,7 @@ export default function ListProduct() {
       merged.sort((a, b) => a.nameProduct.localeCompare(b.nameProduct));
 
       setListProduct(merged);
-      setFilteredList(merged); // Ban đầu hiển thị tất cả
+      setFilteredList(merged); 
       setCategories(categories);
     } catch (error) {
       console.error("Lỗi khi gọi API:", error);
@@ -44,7 +44,6 @@ export default function ListProduct() {
     loadData();
   }, []);
 
-  // Hàm xử lý tìm kiếm
   const handleSearch = () => {
     let result = listProduct.filter((p) => {
       const matchName =
